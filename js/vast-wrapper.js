@@ -114,6 +114,13 @@ var VASTobj = {
                 case 'originalVast':
                     pushIntoArr.push('originalVast='+encodeURIComponent(sf_vast)+'&')
                     break;
+                case 'undertonevpaid8571606':
+                    pushIntoArr.push('undertonevpaid8571606='+tempArr[i][1]+'&')
+                    break;
+                case 'moat':
+                    pushIntoArr.push('moat='+tempArr[i][1]+'&')
+                    break;
+
             }
         }
 
