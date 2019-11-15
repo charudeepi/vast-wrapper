@@ -219,6 +219,10 @@ $( document ).ready(function() {
         VASTobj.buttonClick();
 
     });
+
+    $('input').on('click focusin', function() {
+        this.value = '';
+    });
 });
 
 // var sf_vast = 'https://ads.sparkflow.net/vast/?g=37029',
